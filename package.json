@@ -5,14 +5,22 @@
   "main": "index.js",
   "scripts": {
     "start": "node dist/app.js",
-		"build": "sucrase ./src -d ./dist --transforms imports",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "sucrase ./src -d ./dist --transforms imports"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kodluyoruz-react-bootcamp/odev-1-rumeysaturgut.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kodluyoruz-react-bootcamp/odev-1-rumeysaturgut/issues"
+  },
+  "homepage": "https://github.com/kodluyoruz-react-bootcamp/odev-1-rumeysaturgut#readme",
   "dependencies": {
-    "axios": "^0.21.0"
+    "axios": "^0.21.1"
   },
   "devDependencies": {
     "sucrase": "^3.16.0"

@@ -1,3 +1,7 @@
-const { getData } = require('./lib/service');
+import getData from './lib/service';
 
-console.log(getData(1));
+let data = getData(1);
+data.then(function(result){
+    console.log(result);
+  });
+  
